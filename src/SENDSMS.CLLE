@@ -1,0 +1,9 @@
+             CMD        PROMPT('Send a message with SMS')                       
+                                                                                
+             PARM       KWD(DESTNUM) TYPE(*CHAR) LEN(20) VARY(*YES +            
+                          *INT2) PROMPT('Text number, eg +1234567890')          
+             PARM       KWD(TWILIONUM) TYPE(*CHAR) LEN(20) VARY(*YES +          
+                          *INT2) PROMPT('Twilio number, eg +                    
+                          +1234567890')                                         
+             PARM       KWD(MSG) TYPE(*CHAR) LEN(5000) VARY(*YES +              
+                          *INT2) PROMPT('Parm 3')                               
